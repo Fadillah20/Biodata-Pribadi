@@ -1,0 +1,28 @@
+# Biodata-Pribadi
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+char Nama[20], Ttgl[20], Kelas[20], Alamat[20], Asal[20];
+cout << "Nama : ";
+cin.getline(Nama, 20);
+cout << "Ttgl : ";
+cin.getline(Alamat, 20);
+cout << "Kelas : ";
+cin.getline(Kelas, 20);
+cout << "Alamat : ";
+cin.getline(Alamat, 20);
+cout << "Asal : ";
+cin.getline(Asal, 20);
+
+cout << "=======Biodata Pribadi=======" <<endl;
+cout << " Nama\t\t: "<<Nama <<endl;
+cout << " Ttgl \t\t: "<< Ttgl <<endl;
+cout << " Kelas \t\t: "<< Kelas <<endl;
+cout << " Alamat\t\t: "<< Alamat <<endl;
+cout << " Asal  \t\t: "<< Asal <<endl;
+
+}
